@@ -1,8 +1,13 @@
+var uname;
+var upass;
+var uemail;
+var lname;
+var lpass;
 
 function signclick(){
-    let uname=document.getElementById('uname').value
-    let upass=document.getElementById('upass').value
-    let uemail=document.getElementById('uemail').value
+    uname=document.getElementById('uname').value
+    upass=document.getElementById('upass').value
+    uemail=document.getElementById('uemail').value
     
     if (uname!=="" && upass!=="" && uemail!==""){
         localStorage.setItem(uname,JSON.stringify(uname+'-'+upass+'-'+uemail))
@@ -12,15 +17,30 @@ function signclick(){
 
 function loginclick(){
     
-    let lname=document.getElementById('lname').value
-    let lpass=document.getElementById('lpass').value
-    const arr=localStorage.getItem(lname).split("-")
+    lname=document.getElementById('lname').value;
+    
+    lpass=document.getElementById('lpass').value;
+    const arr=localStorage.getItem(lname).split("-");
     if(arr[1]==lpass){
-        location.replace('home.html')
+        document.getElementById('body2').style.display='block';
+        document.getElementById('main1').style.display='none';
+        homeload();
+        
     }
     else{
-        alert("WRONG PASSWORD")
+        alert("WRONG PASSWORD");
     }
     
-
 }
+
+function homeload(){
+    document.getElementById('uname1').innerHTML=lname.toUpperCase()+"!!!";
+}
+
+function homeclick(){
+    document.getElementById('body2').style.display='none';
+    document.getElementById('main1').style.display='block';
+}
+
+
+

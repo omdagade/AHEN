@@ -1,4 +1,4 @@
-body{
+.body1{
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -31,6 +31,7 @@ label{
 	justify-content: center;
 	display: flex;
 	margin-bottom: 24px;
+	margin-top: 4rem;
 	font-weight: bold;
 	cursor: pointer;
 	transition: .5s ease-in-out;
@@ -98,4 +99,132 @@ button:hover{
 
 #om{
 	display: none;
+}
+
+
+
+/* HOME PAGE */
+
+
+
+#body2{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #393185, #322b7a, #0b0b1d);
+	display: none;
+}
+
+.head{
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    background-color: white;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+i{
+    color: white;
+}
+
+.top1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#logo1{
+    padding-right: 1rem;
+    padding-left: 20rem;
+    padding-top: 1rem;
+}
+
+#txt1{
+    color: white;
+    padding-top: 1rem;
+    
+}
+
+#txt2{
+    padding-left: 1.5rem;
+    color: #393185;
+}
+
+#txt2:hover{
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#wel{
+    color: white;
+    padding-top: 1rem;
+    padding-left: 25rem;
+}
+
+#uname1{
+    color: white;
+    padding-top: 1rem;
+    padding-left: .5rem;
+}
+
+.mainportion{
+	display: flex;
+    background-color: white;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+	height: 30rem;
+	background-image:url(car2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.mainportion1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#maintxt{
+	font-size: 4rem;
+	color: #000000;
+	-webkit-text-stroke-width:.2rem;
+	-webkit-text-stroke-color: black;
+	
+}
+
+#maintxt2{
+	font-size: 1.2rem;
+	color:black;
+	
+}
+
+#maintxt3{
+	font-size: 1.8rem;
+	color:black;
+	
+}
+
+#btnbook{
+	background-color:#2c00ff;
+	color: white;
+	border: .1rem solid black;
+	height: 3rem;
+	width: 25rem;
+}
+
+#btnbook:hover{
+	background-color: #8d7de0;
 }
