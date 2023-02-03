@@ -168,12 +168,14 @@ i{
     color: white;
     padding-top: 1rem;
     padding-left: 25rem;
+	font-size: 1.5rem;
 }
 
 #uname1{
     color: white;
     padding-top: 1rem;
     padding-left: .5rem;
+	font-size: 1.5rem;
 }
 
 .mainportion{
@@ -227,4 +229,121 @@ i{
 
 #btnbook:hover{
 	background-color: #8d7de0;
+	transform: scale(.9);
+}
+
+#aws{
+	color: white;
+	padding: 2rem 32rem 0 32rem;
+	font-size: 1.5rem;
+	
+}
+
+#aws1{
+	color: white;
+	padding:0 35.5rem;
+
+}
+
+.features1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 25rem;
+	
+	
+}
+
+
+
+#f1{
+	height: 18rem;
+	width: 18rem;
+	background-color: white;
+	margin: 2rem;
+	border: .1rem solid rgb(0, 0, 0);
+	border-radius: 3rem;
+	box-shadow:.2rem .2rem rgb(247, 247, 247);
+}
+
+#f1:hover{
+	transform: scale(.9);
+}
+
+.features2{
+	display: flex;
+	
+	width: 100%;
+	height: 25rem;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#awshead{
+	color: #2c00ff;
+	margin: 1rem;
+	
+}
+
+#awsp{
+	color: #322b7a;
+	margin: 1rem;
+	
+}
+
+#awsicon{
+	color: #2c00ff;
+	font-size: 3rem;
+	margin: 1rem 7.5rem;
+}
+
+.footerele{
+	width: 100%;
+	height: 30rem;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foot1{
+	height: 17rem;
+	width: 28%;
+	padding: 2rem;
+	margin: 5rem;
+}
+
+#ftele1{
+	color: white;
+	padding-bottom: 1rem;
+}
+
+#ft1{
+	color: white;
+}
+
+#ftp1{
+	color: white;
+}
+
+#ftp1:hover{
+	color: red;
+	transform: scale(.9);
+}
+
+#ftp2{
+	color: white;
+}
+
+#ftp3{
+	color: white;
+}
+
+.ftpp{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
