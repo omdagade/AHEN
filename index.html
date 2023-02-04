@@ -34,7 +34,7 @@
 					<input id="uname" type="text" name="txt" placeholder="User name" required="">
 					<input id="uemail" type="email" name="email" placeholder="Email" required="">
 					<input id="upass" type="password" name="pswd" placeholder="Password" required="">
-					<button onclick="signclick()">Sign up </button>
+					<button  onclick="signclick()">Sign up </button>
 				</form>
 			</div>
 
@@ -63,95 +63,254 @@
 					<p onclick="homeclick()" id="txt2"> HOME</p>
 					<p id="txt2"> ABOUT US</p>
 					<p id="txt2"> CONTACT US</p>
-					<p id="txt2"> MY BOOKINGS</p>
+					<p id="txt2" onclick="mybookings()"> MY BOOKINGS</p>
 				</div>
 			</header>
-			<div class="mainportion">
-				<div class="mainportion1">
-					<div class="writemain">
-						<p id="maintxt">
-							WELCOME TO AHEN,
-						</p>
-						<p id="maintxt2">
-							WANT TO LEARN DRIVING AT AFFORDABLE PRICE?
-						</p>
-						<p id="maintxt3">
-							BOOK YOUR DRIVING CLASS NOW!!!
-						</p>
-						<button id="btnbook" type="submit">BOOK NOW-></button>
-					</div>
-					<div class="imgmain">
+			<div id="hide">
+				<div class="mainportion">
+					<div class="mainportion1">
+						<div class="writemain">
+							<p id="maintxt">
+								WELCOME TO AHEN,
+							</p>
+							<p id="maintxt2">
+								WANT TO LEARN DRIVING AT AFFORDABLE PRICE?
+							</p>
+							<p id="maintxt3">
+								BOOK YOUR DRIVING CLASS NOW!!!
+							</p>
+							<button id="btnbook" type="submit" onclick="booknowclick()">BOOK NOW-></button>
+						</div>
+						<div class="imgmain">
+
+						</div>
 
 					</div>
 
-				</div>
 
+				</div>
+				<p id="aws">SOME AWESOME FEATURES</p>
+				<p id="aws1">---------------------------------------------------------</p>
+				<div class="features1">
+
+					<div id="f1">
+						<i id="awsicon" class="fa fa-bullhorn"></i>
+						<h5 id="awshead">BEST SAFETY MEASURES</h5>
+						<p id="awsp">You cant be a Pro Driver in India unless you are trained for the best safety
+							measures.
+
+							We make sure that you get trained to handle the chaos of the Indian
+							traffic.</p>
+					</div>
+					<div id="f1">
+						<i id="awsicon" class="fa fa-users"></i>
+						<h5 id="awshead">EXPERIENCED INSTRUCTORS</h5>
+						<p id="awsp">Our instructors undergo vigorous training before they are deemed fit to give
+							driving
+							lessons to
+							our candidates. We ensure that you learn from the best so that you can be the best!</p>
+					</div>
+					<div id="f1">
+						<i id="awsicon" class="fa fa-clock-o"></i>
+						<h5 id="awshead">FEMALE INSTRUCTORS</h5>
+						<p id="awsp">Our team consists of both male and female driving instructors so that we can
+							provide
+							the best
+							service to our candidates. Generally, female candidates are more comfortable learning from a
+							female instructor.</p>
+					</div>
+
+				</div>
+				<div class="features2">
+					<div id="f1">
+						<i id="awsicon" class="fa fa-money"></i>
+						<h5 id="awshead">AFFORDABLE FEE</h5>
+						<p id="awsp">We offers the most affordable and competitive fees in the tri-city.
+							With
+							flexible payment options, we provide complete support and satisfaction to our candidates.
+						</p>
+					</div>
+					<div id="f1">
+						<i id="awsicon" class="fa fa-play-circle-o"></i>
+						<h5 id="awshead">24X7 CUSTOMER SUPPORT</h5>
+						<p id="awsp">We provide 24x7 customer support to all its clients.
+							Want to reschedule your
+							tomorrows class? Just give us a id="awsp"call at +91 9306306304!</p>
+					</div>
+					<div id="f1">
+						<i id="awsicon" class="fa fa-credit-card"></i>
+						<h5 id="awshead">LICENSE TRAINING</h5>
+						<p id="awsp">Getting a license requires you to clear a written exam along with the driving test.
+							At
+							We train you to excel both in your driving test as well as the written exam.</p>
+					</div>
+				</div>
+			</div>
+
+
+			<!--Driving Schools Page-->
+
+			<div id="drivingpage">
+				<p id="dsc">DRIVING SCHOOLS NEAR YOU</p>
+				<div class="mainbdy">
+					<div class="bookele" onclick="schoolclick1()">
+						<div id="sdiv">
+							<h2 id="dschool">SAGAR DRIVING SCHOOL</h2>
+							<p id="dschool1">Sadashiv Peth, Near Sunny Hotel <br>
+								Pune - 411032, Maharashtra, India</p>
+						</div>
+						<div id="carimg">
+							<img src="car.jpg" alt="">
+						</div>
+						<div id="bknow">
+							<button id="btnbook1" onclick="schoolclick1()" type="submit">BOOK NOW</button>
+						</div>
+					</div>
+
+
+					<div class="bookele" onclick="schoolclick2()">
+						<div id="sdiv">
+							<h2 id="dschool">BANSAL DRIVING SCHOOL</h2>
+							<p id="dschool1">Vishrantwadi, Near Vishranti Hotel <br>
+								Pune - 411032, Maharashtra, India</p>
+						</div>
+						<div id="carimg">
+							<img src="car3.jpg" alt="">
+						</div>
+						<div id="bknow">
+							<button id="btnbook1" onclick="schoolclick2()" type="submit">BOOK NOW</button>
+						</div>
+					</div>
+
+
+					<div class="bookele" onclick="schoolclick3()">
+						<div id="sdiv">
+							<h2 id="dschool">OM DRIVING SCHOOL</h2>
+							<p id="dschool1">Dighi, Near Apex Hotel <br>
+								Pune - 411032, Maharashtra, India</p>
+						</div>
+						<div id="carimg">
+							<img src="car.jpg" alt="">
+						</div>
+						<div id="bknow">
+							<button id="btnbook1" onclick="schoolclick3()" type="submit">BOOK NOW</button>
+						</div>
+					</div>
+
+
+					<div class="bookele" onclick="schoolclick4()">
+						<div id="sdiv">
+							<h2 id="dschool">SAI DRIVING SCHOOL</h2>
+							<p id="dschool1">Vimanagar, Near China Grill Hotel <br>
+								Pune - 411032, Maharashtra, India</p>
+						</div>
+						<div id="carimg">
+							<img src="car3.jpg" alt="">
+						</div>
+						<div id="bknow">
+							<button id="btnbook1" onclick="schoolclick4()" type="submit">BOOK NOW</button>
+						</div>
+					</div>
+
+
+				</div>
 
 			</div>
-			<p id="aws">SOME AWESOME FEATURES</p>
-			<p id="aws1">---------------------------------------------------------</p>
-			<div class="features1">
 
-				<div id="f1">
-					<i id="awsicon" class="fa fa-bullhorn"></i>
-					<h5 id="awshead">BEST SAFETY MEASURES</h5>
-					<p id="awsp">You cant be a Pro Driver in India unless you are trained for the best safety measures.
-						At
-						Forever Driving School, we make sure that you get trained to handle the chaos of the Indian
-						traffic.</p>
-				</div>
-				<div id="f1">
-					<i id="awsicon" class="fa fa-users"></i>
-					<h5 id="awshead">EXPERIENCED INSTRUCTORS</h5>
-					<p id="awsp">Our instructors undergo vigorous training before they are deemed fit to give driving
-						lessons to
-						our candidates. We ensure that you learn from the best so that you can be the best!</p>
-				</div>
-				<div id="f1">
-					<i id="awsicon" class="fa fa-clock-o"></i>
-					<h5 id="awshead">FEMALE INSTRUCTORS</h5>
-					<p id="awsp">Our team consists of both male and female driving instructors so that we can provide
-						the best
-						service to our candidates. Generally, female candidates are more comfortable learning from a
-						female instructor.</p>
-				</div>
 
-			</div>
-			<div class="features2">
-				<div id="f1">
-					<i id="awsicon" class="fa fa-money"></i>
-					<h5 id="awshead">AFFORDABLE FEE</h5>
-					<p id="awsp">Forever Driving School offers the most affordable and competitive fees in the tri-city.
-						With
-						flexible payment options, we provide complete support and satisfaction to our candidates.</p>
-				</div>
-				<div id="f1">
-					<i id="awsicon" class="fa fa-play-circle-o"></i>
-					<h5 id="awshead">24X7 CUSTOMER SUPPORT</h5>
-					<p id="awsp">Forever Driving School provide 24x id="awshead"7 customer support to all its clients.
-						Want to reschedule your
-						tomorrows class? Just give us a id="awsp"call at +91 9306306304!</p>
-				</div>
-				<div id="f1">
-					<i id="awsicon" class="fa fa-credit-card"></i>
-					<h5 id="awshead">LICENSE TRAINING</h5>
-					<p id="awsp">Getting a license requires you to clear a written exam along with the driving test. At
-						Forever
-						Driving School, we train you to excel both in your driving test as well as the written exam.</p>
+			<!--Booking Page-->
+
+			<div id="bookingpage1">
+				<div class="contentbook">
+					<p class="o1" id="o1">SAGAR DRIVING SCHOOL</p>
+					<form action="">
+						<h3 id="oo2">SELECT DATE</h3>
+						<input type="date" class="datbook" name="datebook" id="datbook1">
+						<H3 id="oo2">SELECT TIME</H3>
+						<input type="time" class="timebook" name="timebook" id="timebook1">
+						
+					</form>
+					<button id='bookbutton' onclick="booknow1()">Submit Now</button>
 				</div>
 			</div>
 
+			<div id="bookingpage2">
+				<div class="contentbook">
+					<p class="o1" id="o2">BANSAL DRIVING SCHOOL</p>
+					<form action="">
+						<h3 id="oo2">SELECT DATE</h3>
+						<input type="date" class="datbook" name="datebook" id="datbook2">
+						<H3 id="oo2">SELECT TIME</H3>
+						<input type="time" class="timebook" name="timebook" id="timebook2">
+						
+					</form>
+					<button id='bookbutton' onclick="booknow2()">Submit Now</button>
+				</div>
+			</div>
+
+			<div id="bookingpage3">
+				<div class="contentbook">
+					<p class="o1" id="o3">OM DRIVING SCHOOL</p>
+					<form action="">
+						<h3 id="oo2">SELECT DATE</h3>
+						<input type="date" class="datbook" name="datebook" id="datbook3">
+						<H3 id="oo2">SELECT TIME</H3>
+						<input type="time" class="timebook" name="timebook" id="timebook3">
+						
+					</form>
+					<button id='bookbutton' onclick="booknow3()">Submit Now</button>
+				</div>
+			</div>
+
+
+			<div id="bookingpage4">
+				<div class="contentbook">
+					<p class="o1" id="o4">SAI DRIVING SCHOOL</p>
+					<form action="">
+						<h3 id="oo2">SELECT DATE</h3>
+						<input type="date" class="datbook" name="datebook" id="datbook4">
+						<H3 id="oo2">SELECT TIME</H3>
+						<input type="time" class="timebook" name="timebook" id="timebook4">
+						
+					</form>
+					<button id='bookbutton' onclick="booknow4()">Submit Now</button>
+				</div>
+			</div>
+
+
+
+			<!--MY BOOKINGS-->
+
+			<div id="mybookings">
+				<p id="dsc">MY BOOKINGS</p>
+				<div class="bookele">
+					<div id="sdiv">
+						<h2 id="bking1">NO BOOKINGS</h2>
+						<p id="bking2"></p>
+						<p id="bking3"></p>
+					</div>
+					<div id="carimg">
+						<img src="car.jpg" alt="">
+					</div>
+					<div id="bknow">
+						<button id="dele" onclick="deleteclick()" type="submit">DELETE</button>
+					</div>
+				</div>
+			</div>
+
+<!--FOOTER-->
 			<div class="footer">
 				<div class="footerele">
 					<div class="foot1">
 						<h3 id="ftele1">ABOUT</h3>
-						<p id="ft1">AHEN is the best platform for booking driving class. We have well trained instructors. Welcome
+						<p id="ft1">AHEN is the best platform for booking driving class. We have well trained
+							instructors. Welcome
 							to AHEN. Learning to drive is not just about getting a driving license but
 							is an essential skill for life.</p>
 					</div>
 					<div class="foot1">
 						<h3 id="ftele1">QUICK LINKS</h3>
-						<p id="ftp1">HOME</p>
+						<p id="ftp1" onclick="homeclick()">HOME</p>
 						<P id="ftp1">ABOUT US</P>
 						<P id="ftp1">CONTACT US</P>
 						<P id="ftp1">MY BOOKINGS</P>
@@ -160,13 +319,13 @@
 					<div class="foot1">
 						<h3 id="ftele1">CONTACT US</h3>
 						<p id="ftp2"> +91 9456345673</p>
-						
+
 					</div>
-					
+
 				</div>
 				<div class="ftpp">
-				<p id="ftp3">Copyright &#169 2022 Om Dagade. All Rights Reserved</p>
-			</div>
+					<p id="ftp3">Copyright &#169 2022 Om Dagade. All Rights Reserved</p>
+				</div>
 			</div>
 		</div>
 

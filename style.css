@@ -331,6 +331,7 @@ i{
 #ftp1:hover{
 	color: red;
 	transform: scale(.9);
+	cursor: pointer;
 }
 
 #ftp2{
@@ -347,3 +348,152 @@ i{
 	justify-content: center;
 	width: 100%;
 }
+
+
+
+/*booking page*/
+
+.mainbdy{
+	width: 100%;
+}
+
+.bookele{
+	height: 13rem;
+	padding: 1rem 4rem;
+	background-color: white;
+	border: .1rem solid black;
+	border-radius: 2rem;
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+}
+
+#btnbook1:hover{
+	transform: scale(.9);
+	background-color: red;
+}
+
+#dsc{
+	font-size: 2rem;
+	color: white;
+	padding: 0 26rem;
+}
+
+#dschool{
+	color: #2c00ff;
+}
+#dschool1{
+	color: #020008;
+}
+
+#sdiv{
+	margin: 0 5rem;
+}
+
+#carimg{
+	margin: 0 4rem;
+}
+
+#btnbook1{
+	width: 14rem;
+	height: 3rem;
+	color: white;
+	background-color: #2c00ff;
+	margin: 0 2rem;
+}
+
+
+/*booking page*/
+
+.contentbook{
+	
+	background-color: white;
+	width: 40rem;
+	margin: 3rem 23rem;
+	border: .2rem solid black;
+	border-radius: 2rem;
+}
+
+.o1{
+	color:#2c00ff;
+	font-size: 2rem;
+	margin: 2rem;
+}
+
+#oo2{
+	color: black;
+	margin: 2rem;
+}
+
+.datbook{
+	
+	border: .1rem solid black;
+	color: black
+}
+
+.timebook{
+	
+	border: .1rem solid black;
+	color: black
+}
+
+#bookbutton{
+	width: 60%;
+	height: 3rem;
+	cursor: pointer;
+	background-color: #2c00ff;
+	color: white;
+	margin: 4rem 8rem;
+}
+
+#bookbutton:hover{
+	transform: scale(.9);
+}
+
+#bookingpage1{
+	display: none;
+}
+#bookingpage2{
+	display: none;
+}
+#bookingpage3{
+	display: none;
+}
+#bookingpage4{
+	display: none;
+}
+
+#drivingpage{
+	display: none;
+}
+
+/*-------------------------------*/
+
+#dele{
+	width: 60%;
+	height: 3rem;
+	cursor: pointer;
+	background-color: #2c00ff;
+	color: white;
+	margin: 4rem 8rem;
+}
+
+#dele:hover{
+	transform: scale(.9);
+}
+
+#bking1{
+	color: #2c00ff;
+}
+
+#bking2{
+	color: black;
+}
+
+#bking3{
+	color: black;
+}
+
